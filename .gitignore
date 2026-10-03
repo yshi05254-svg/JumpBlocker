@@ -1,0 +1,18 @@
+# build outputs
+build/
+*/build/
+.gradle/
+.kotlin/
+.cxx/
+*.apk
+*.aab
+*.dex
+local.properties
+
+# signing material
+keys/
+signing/
+*.jks
+*.keystore
+*.p12
+*.pem

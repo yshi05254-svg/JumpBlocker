@@ -1,0 +1,7 @@
+<manifest package="io.operit.jumpblocker" xmlns:android="http://schemas.android.com/apk/res/android">
+ <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="false" android:usesCleartextTraffic="false">
+  <meta-data android:name="xposedmodule" android:value="true"/>
+  <meta-data android:name="xposeddescription" android:value="只允许作用域内应用跳转到自身组件，阻断浏览器及所有外部 Activity"/>
+  <meta-data android:name="xposedminversion" android:value="93"/>
+ </application>
+</manifest>

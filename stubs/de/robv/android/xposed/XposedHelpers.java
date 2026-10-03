@@ -1,0 +1,1 @@
+package de.robv.android.xposed; public final class XposedHelpers { public static XC_MethodHook.Unhook findAndHookMethod(String c,ClassLoader l,String n,Object... a){return null;} public static Class<?> findClass(String n,ClassLoader l){try{return Class.forName(n,false,l);}catch(Exception e){throw new RuntimeException(e);}} }
